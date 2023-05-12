@@ -1,0 +1,32 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+caption figure 1
+title Blah_Zahy_whoop!
+
+* <&star>OS_DETECT
+* <&star>INSTALLER
+* <&flag>$USER+GREET+Querry?
+** <&globe>RemoteDB
+*** Linux Mint
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+** <&graph>LocalDB
+** <&pulse>SolydXK
+** <&people>SteamOS
+** <&star>Raspbian with a very long name
+*** <s>Raspmbc</s> => OSMC
+*** <s>Raspyfi</s> => Volumio
+
+header
+My super header
+endheader
+
+center footer My super footer
+
+legend right
+  Short
+  legend
+endlegend
+@endmindmap
