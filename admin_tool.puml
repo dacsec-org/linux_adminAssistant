@@ -2,31 +2,37 @@
 'https://plantuml.com/mindmap-diagram
 
 caption figure 1
-title Blah_Zahy_whoop!
+title Linux Admin Assistant
 
 * <&star>OS_DETECT
+* <&star>USR_VERIFY
 * <&star>INSTALLER
-* <&flag>$USER+GREET+Querry?
-** <&globe>RemoteDB
-*** Linux Mint
-*** Kubuntu
-*** Lubuntu
-*** KDE Neon
-** <&graph>LocalDB
-** <&pulse>SolydXK
-** <&people>SteamOS
-** <&star>Raspbian with a very long name
-*** <s>Raspmbc</s> => OSMC
-*** <s>Raspyfi</s> => Volumio
+* <&flag>$GREET+Query?
+** <&globe>
+*** Option 1
+*** Option 2
+*** Option 3
+*** Option 4
+** <&graph>
+** <&pulse>
+** <&people>
+** <&star>Repair. Options
+*** <s></s> => ?
+*** <s></s> => ?
 
 header
-My super header
+mindMap
 endheader
 
 center footer My super footer
 
-legend right
-  Short
+legend left
   legend
+  <&star>=
+  <&flag>=
+  <&globe>=OS
+  <&graph>=Report
+  <&pulse>=Update
+  <&people>=User/Home
 endlegend
 @endmindmap
