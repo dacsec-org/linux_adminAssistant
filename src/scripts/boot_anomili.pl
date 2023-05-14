@@ -6,6 +6,7 @@
 
 use strict;
 use warnings FATAL => 'all';
+
 # Make the new log file
 my $log = "~/boot_log.txt";
 # This is the file to check
@@ -21,6 +22,9 @@ system($cmd && $cmd1);
 if (!system($cmd)) {
     print "There are no anomalies in the boot log\n";
 } else {
-    print "There are anomalies in the boot log\n";
+    print "There are anomalies in the boot log\n"; # and print them to the screen
+    system($cmd1);
     exit 0;
 }
+
+# THIS IS NOT WORKING YET - LOOPING INDEFINITELY

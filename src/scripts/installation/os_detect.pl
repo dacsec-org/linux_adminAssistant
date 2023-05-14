@@ -26,11 +26,13 @@ if ($os eq "Linux") {
     } elsif ($distro eq "CentOS") {
         print "CentOS\n";
     } else {
-        print "Unknown Linux Distro\n";
+        print "Unknown Linux Distro\n
+YOU SHALL DIE NOW!!!\n";
     }
 
 } elsif ($os eq "Darwin") {
     print "MacOS\n";
     } else {
-    print "Unknown OS\n";
+    print "Unknown OS\n
+YOU SHALL DIE NOW!!!\n";
 }
