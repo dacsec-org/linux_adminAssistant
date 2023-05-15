@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# This is the installer for the application
+# This is the installer stubb for the application....
 use strict;
 use warnings FATAL => 'all';
 use diagnostics;
@@ -21,7 +21,7 @@ if ($< != 0) {
 my $os = `perl os_detect.pl`;
 # if the os is debian based, we can use apt to install the tools
 if ($os =~ /debian/ || $os =~ /ubuntu/ || $os =~ /mint/ || $os =~ /kali/ || $os =~ /parrot/) {
-    say "This is a debian based system. Installing the tools using apt";{
+    say "This is a Debian based system. Installing the tools using apt";{
     # update, and upgrade the system first
     system "apt update" && "apt full-upgrade -y";
     }
@@ -37,7 +37,7 @@ if ($os =~ /redhat/) {
     }
     # install the tools
     system "yum install -y grep iproute2 iputils-ping net-tools tcpdump netstat traceroute wget curl git ls pciutils
-    usbutils lshw lsscsi lsof strace ltrace htop iotop iftop nmap iperf3 iperf iperf3-doc iperf-doc iperf3-dbg iperf-dbg";
+    usbutils lshw lsscsi lsof strace ltrace htop iotop iftop nmap iperf3 iperf iperf3-doc";
 }
 # if the install is successful, print a success message
 if ($? == 0) {
@@ -48,4 +48,5 @@ else {
     say "The tools have not been installed successfully." + $?;
 }
 
-# if install failed, grep the logs for the error, and print it, and suggest a fix
+# if install failed, grep the logs for the error + and use a scraper to suggest a fix.. then actually perform the fix
+# for the user like it's going to be designed to do in the first place.
