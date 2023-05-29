@@ -1,7 +1,8 @@
 #!/usr/bin/perl
-# This script's sole purpose is for Operating system detection for the purpose of installing the correct packages
-# for the correct OS.
-# run perl os_detect.pl from its directory to see the output(you may have to use sudo)
+=begin This script's sole purpose is for Operating system detection for
+ installing the correct packages for the correct OS.
+ run `perl os_detect.pl` from its directory to see the output(you may have to use sudo)
+=cut
 use strict;
 use warnings;
 use warnings FATAL => 'all';

@@ -1,0 +1,9 @@
+# print any (-b) logs from the current boot
+journalctl -b
+
+# print all (--state-failed) failed systemd units
+systemctl -a --state=failed
+
+# print all services
+service --status-all
+

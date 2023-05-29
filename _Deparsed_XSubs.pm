@@ -1748,6 +1748,7 @@ package Devel::Caller {
 sub _context_cv;
 sub _context_op;
 }
+<<<<<<< HEAD
 package Devel::Cover {
 sub abs_path;
 sub getcwd;
@@ -1759,6 +1760,8 @@ sub ppname;
 package Devel::Cover::Util {
 sub abs_path;
 }
+=======
+>>>>>>> my_local_0
 package Devel::LexAlias {
 sub _lexalias;
 }
@@ -1789,6 +1792,7 @@ sub md4_hex;
 sub new;
 sub reset;
 }
+<<<<<<< HEAD
 package Digest::MD5 {
 sub DESTROY;
 sub add;
@@ -1804,6 +1808,8 @@ sub md5_hex;
 sub new;
 sub reset;
 }
+=======
+>>>>>>> my_local_0
 package Digest::SHA {
 sub DESTROY($) ;
 sub _addfilebin($$) ;
@@ -2435,9 +2441,12 @@ sub bsd_glob;
 sub bsd_glob_override;
 sub csh_glob;
 }
+<<<<<<< HEAD
 package File::Path {
 sub getcwd;
 }
+=======
+>>>>>>> my_local_0
 package File::ShareDir {
 sub _STRING($) ;
 sub firstres(&@) ;
@@ -6448,9 +6457,12 @@ package PerlIO::Layer {
 sub NoWarnings;
 sub find;
 }
+<<<<<<< HEAD
 package Pod::Find {
 sub abs_path;
 }
+=======
+>>>>>>> my_local_0
 package Proc::ProcessTable {
 sub _initialize_os;
 sub constant;
@@ -6954,6 +6966,7 @@ sub set_prototype;
 sub set_subname;
 sub subname;
 }
+<<<<<<< HEAD
 package Template {
 sub blessed($) ;
 }
@@ -6978,6 +6991,8 @@ package Template::VMethods {
 sub blessed($) ;
 sub looks_like_number($) ;
 }
+=======
+>>>>>>> my_local_0
 package Term::ReadKey {
 sub GetControlChars;
 sub GetSpeed;
@@ -6996,6 +7011,7 @@ sub setnodelay;
 sub termoptions;
 sub termsizeoptions;
 }
+<<<<<<< HEAD
 package Test2::API {
 sub blessed($) ;
 sub weaken($) ;
@@ -7036,6 +7052,8 @@ sub _runops_installed;
 sub _start;
 sub count_sv;
 }
+=======
+>>>>>>> my_local_0
 package Text::CSV_XS {
 sub Combine;
 sub Parse;
@@ -8307,10 +8325,13 @@ sub regname(;$$) ;
 sub regnames(;$) ;
 sub regnames_count() ;
 }
+<<<<<<< HEAD
 package threads {
 sub DESTROY;
 sub join;
 }
+=======
+>>>>>>> my_local_0
 package utf8 {
 sub decode;
 sub downgrade;

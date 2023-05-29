@@ -3,7 +3,7 @@
 # The list is also used by the tool_check.pl script to check if the packages are installed
 
 [packages]
-grep iproute2 iputils-ping net-tools tcpdump traceroute vim wget curl git ls pciutils usbutils lshw lsscsi lsof strace
-sysstat iotop htop iftop nmap ncdu nmon ioping iotop iostat dstat atop sysbench stress-ng stress iperf3 fio hdparm
 
-
+'grep iproute2 iputils-ping net-tools tcpdump netstat traceroute wget curl git ls pciutils usbutils lshw lsscsi lsof strace
+sysstat iotop htop iftop nmap ncdu nmon ioping iotop iostat dstat atop sysbench stress-ng stress iperf3 fio hdparm'
+jdupes fdupes findimagedupes
